@@ -5,7 +5,7 @@
       <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
       </div>
-      <div class="sidebar-brand-text mx-3">SiMagang</div>
+      <div class="sidebar-brand-text mx-3">S<span class="text-lowercase">i</span>M<span class="text-lowercase">agAng</span></div>
   </a>
 
   <!-- Divider -->
