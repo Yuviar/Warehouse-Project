@@ -1,0 +1,1 @@
+Dak tau mau diapain
