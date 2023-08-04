@@ -37,7 +37,7 @@
           <div class="bg-white py-2 collapse-inner rounded">
               <h6 class="collapse-header">Data Barang:</h6>
               <a class="collapse-item" href="/daftar-barang">Daftar Barang</a>
-              <a class="collapse-item" href="cards.html">Ketegori</a>
+              <a class="collapse-item" href="/kategori-barang">Kategori</a>
           </div>
       </div>
   </li>
@@ -53,8 +53,8 @@
           data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
               <h6 class="collapse-header">Histori Barang:</h6>
-              <a class="collapse-item" href="utilities-color.html">Barang Masuk</a>
-              <a class="collapse-item" href="utilities-border.html">Barang Keluar</a>
+              <a class="collapse-item" href="#">Barang Masuk</a>
+              <a class="collapse-item" href="#">Barang Keluar</a>
           </div>
       </div>
   </li>

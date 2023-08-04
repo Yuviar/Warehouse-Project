@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BarangController;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,9 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[DashboardController::class,'index']);
 
-Route::get('/daftar-barang', function(){
-    return view('barang.daftarBarang');
-});
+Route::get('/daftar-barang', [BarangController::class, 'index']);
  
 Route::get('/login', function () {
     return view('auth.login');
