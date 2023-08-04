@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SiMagang - Dashboard</title>
+    <title>SiMagang</title>
 
     <!-- Custom fonts for this template-->
     
