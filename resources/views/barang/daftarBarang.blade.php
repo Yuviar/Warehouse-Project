@@ -34,9 +34,9 @@
                       <tr>
                         <td>{{ $item->img }}</td>
                         <td>{{ $item->name }}</td>
-                        <td>{{ $item->category_id }}</td>
-                        <td>{{ $item->qty }}</td>
-                        <td>{{ $item->price }}</td>
+                        <td>{{ $item->Category->name }}</td>
+                        <td>{{ $item->stok }}</td>
+                        <td>Rp. {{ $item->harga }}</td>
                     </tr>  
                     @endforeach
                     

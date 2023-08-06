@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('product_masuk', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('product_id')->references('id')->on('products')->onDelete('cascade');
-            $table->foreignId('supplier_id')->references('id')->on('suppliers')->onDelete('cascade');
+            $table->foreignId('product_id');
+            $table->foreignId('supplier_id');
             $table->integer('qty');
             $table->date('date');
             $table->timestamps();
