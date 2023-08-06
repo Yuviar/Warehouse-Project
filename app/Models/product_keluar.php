@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class product_keluar extends Model
 {
-    protected $fillable = ['product_id', 'supplier_id', 'qty', 'date'];
+    protected $fillable = ['product_id', 'customer_id', 'qty', 'date'];
     use HasFactory;
 }
