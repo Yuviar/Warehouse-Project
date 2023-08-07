@@ -13,7 +13,7 @@
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                     <tr>
-                        <th>gambar</th>
+                        <th>Gambar</th>
                         <th>Nama Produk</th>
                         <th>Kategori</th>
                         <th>Stok Produk</th>
@@ -22,7 +22,7 @@
                 </thead>
                 <tfoot>
                     <tr>
-                        <th>gambar</th>
+                        <th>Gambar</th>
                         <th>Nama Produk</th>
                         <th>Kategori</th>
                         <th>Stok Produk</th>
@@ -30,13 +30,13 @@
                     </tr>
                 </tfoot>
                 <tbody>
-                    @foreach ($products as $item)
+                    @foreach ($products as $product)
                       <tr>
-                        <td>{{ $item->img }}</td>
-                        <td>{{ $item->name }}</td>
-                        <td>{{ $item->Category->name }}</td>
-                        <td>{{ $item->stok }}</td>
-                        <td>Rp. {{ $item->harga }}</td>
+                        <td>{{ $product->img }}</td>
+                        <td>{{ $product->name }}</td>
+                        <td>{{ $product->Category->name }}</td>
+                        <td>{{ $product->qty }}</td>
+                        <td>Rp. {{ $product->price }}</td>
                     </tr>  
                     @endforeach
                     
