@@ -20,15 +20,6 @@
                         <th>Harga Produk</th>
                     </tr>
                 </thead>
-                <tfoot>
-                    <tr>
-                        <th>gambar</th>
-                        <th>Nama Produk</th>
-                        <th>Kategori</th>
-                        <th>Stok Produk</th>
-                        <th>Harga Produk</th>
-                    </tr>
-                </tfoot>
                 <tbody>
                     @foreach ($products as $item)
                       <tr>
