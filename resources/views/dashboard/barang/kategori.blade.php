@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.master')
 @section('container')
     <h2>KATEGORI</h2>
     <button class="btn btn-primary" href="/add">Tambah</button>

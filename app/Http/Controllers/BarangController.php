@@ -9,6 +9,6 @@ class BarangController extends Controller
 {
     function index(){
         $products = product::select('*')->get();
-        return view('barang.daftarBarang', compact('products'));
+        return view('dashboard.barang.daftarBarang', compact('products'));
     }
 }

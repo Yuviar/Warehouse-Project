@@ -9,6 +9,6 @@ class KategoriController extends Controller
 {
     function index(){
         $categories = Category::get();
-        return view('barang.kategori', compact('categories'));
+        return view('dashboard.barang.kategori', compact('categories'));
     }
 }
