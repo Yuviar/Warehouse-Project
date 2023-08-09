@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('product_keluar', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('product_id')->references('id')->on('products')->onDelete('cascade');
-            $table->foreignId('customer_id')->references('id')->on('customers')->onDelete('cascade');
+            $table->foreignId('product_id');
+            $table->foreignId('customer_id');
             $table->integer('qty');
             $table->date('date');
             $table->timestamps();

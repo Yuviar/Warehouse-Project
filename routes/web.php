@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\KategoriController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[DashboardController::class,'index']);
 
 Route::get('/daftar-barang', [BarangController::class, 'index']);
+Route::get('/kategori-barang', [KategoriController::class, 'index']);
+
  
 Route::get('/login', function () {
     return view('auth.login');

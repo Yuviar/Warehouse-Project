@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\products;
+use App\Models\product;
 use Illuminate\Http\Request;
 
 class BarangController extends Controller
 {
     function index(){
-        $products = products::select('*')->get();
+        $products = product::select('*')->get();
         return view('barang.daftarBarang', compact('products'));
     }
 }
