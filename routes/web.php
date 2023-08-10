@@ -18,7 +18,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[DashboardController::class,'index']);
 
-Route::get('/daftar-barang', [BarangController::class, 'index']);
+Route::get('/daftar-barang', [BarangController::class, 'index'])->name('barang');
+Route::post('/daftar-barang/simpan', [BarangController::class, 'tambah']);
 Route::get('/kategori-barang', [KategoriController::class, 'index']);
 
  
