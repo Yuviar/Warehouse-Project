@@ -1,4 +1,4 @@
-<p align="center"><a href="#" target="_blank"><img src="public/img/Brand SiMagang.png" width="400"></a></p>
+<p align="center"><a href="#"><img src="public/img/Brand-SiMagang.png" width="400"></a></p>
 
 
 ## About SiMagang
