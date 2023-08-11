@@ -21,6 +21,6 @@ class BarangController extends Controller
             'qty' => $request->jumlah,
             'price' => $request->harga
         ]);
-        return redirect('/daftar-barang');
+        return redirect()->back();
     }
 }

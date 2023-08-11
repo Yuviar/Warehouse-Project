@@ -9,8 +9,8 @@
       </div>
       <div class="modal-body">
         <div class="container-fluid p-2">
-          <form action="/daftar-barang/simpan" method="POST" class="user">
-            {{ csrf_field() }}
+          <form action="/daftar-barang/baru" method="POST" class="user">
+            @csrf
               <div class="input-group mb-3">
                   <div class="custom-file">
                     <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01" name="gambar">

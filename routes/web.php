@@ -19,8 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[DashboardController::class,'index']);
 
 Route::get('/daftar-barang', [BarangController::class, 'index'])->name('barang');
-Route::post('/daftar-barang/simpan', [BarangController::class, 'tambah']);
+Route::post('/daftar-barang/baru', [BarangController::class, 'tambah']);
 Route::get('/kategori-barang', [KategoriController::class, 'index']);
+Route::post('/kategori-barang/baru', [KategoriController::class, 'tambah']);
 
  
 Route::get('/login', function () {
