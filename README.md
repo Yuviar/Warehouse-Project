@@ -8,6 +8,7 @@
 
 ### Created By:
 
-- **[FaruuZa](https://github.com/FaruuZa)**
 - **[Shrueee](https://github.com/Shrueee)**
+- **[FaruuZa](https://github.com/FaruuZa)**
+- **[ZAKY05](https://github.com/ZAKY05)**
 - **[Yuviar](https://github.com/Yuviar)**

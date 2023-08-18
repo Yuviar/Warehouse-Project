@@ -18,13 +18,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[DashboardController::class,'index']);
 
-Route::get('/daftar-barang', [BarangController::class, 'index']);
+Route::get('/daftar-barang', [BarangController::class, 'index'])->name('barang');
+Route::post('/daftar-barang/baru', [BarangController::class, 'tambah']);
 Route::get('/kategori-barang', [KategoriController::class, 'index']);
+Route::post('/kategori-barang/tambah', [KategoriController::class, 'tambah']); 
+Route::get('/kategori-barang/edit/{category}', [KategoriController::class, 'edit']);
+Route::post('/kategori-barang/edit/{category}', [KategoriController::class, 'editJadi']);
+Route::get('/kategori-barang/hapus/{category}', [KategoriController::class, 'hapus']);
+Route::post('/kategori-barang/hapus/{category}', [KategoriController::class, 'hapusJadi']);
 
  
 Route::get('/login', function () {
     return view('auth.login');
 });
+
 Route::get('/register', function () {
     return view('auth.register');
 });

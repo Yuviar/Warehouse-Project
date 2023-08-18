@@ -8,7 +8,7 @@
       <div class="sidebar-brand-text mx-3">S<span class="text-lowercase">i</span>M<span class="text-lowercase">agAng</span></div>
   </a>
 
-  <!-- Divider -->
+  <!-- Divider --> 
   <hr class="sidebar-divider my-0">
 
   <!-- Nav Item - Dashboard -->
