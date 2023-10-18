@@ -12,3 +12,4 @@
 - **[FaruuZa](https://github.com/FaruuZa)**
 - **[ZAKY05](https://github.com/ZAKY05)**
 - **[Yuviar](https://github.com/Yuviar)**
+- **[WillBzz](https://github.com/WillBzz)**
